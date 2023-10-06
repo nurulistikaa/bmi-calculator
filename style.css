@@ -4,26 +4,33 @@
 
 body {
     background-color: #fff;
+    background-image: url(background.png);
+    background-size: cover;
     font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: 80vh;
+    height: 100vh;
 }
 
 button {
     outline: none;
-    background-color: #6751eb;
+    background-color:  #4f7df9;
     color: #fff;
     border: none;
     padding: 10px 15px;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+}
+
+button:hover {
+    background: #6751eb;
 }
 
 h2 {
@@ -35,25 +42,26 @@ h2 {
 }
 
 p.text-center {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     font-size: 18px;
+    text-align: center;
 }
 
 .btn {
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     display: block;
     font-size: 12px;
 }
 
 input {
-    width: 100%;
-    padding: 5px;
+    width: 93%;
+    padding: 10px;
     border: 2px solid 	silver;
     margin-bottom: 5px;
     outline: none;
     font-size: 14px;
-    color: silver;
+    color: #000;
 }
 
 form {
@@ -66,14 +74,14 @@ form p {
 }
 
 .panel {
-    margin-top: 20px;
-    float: none;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 25px;
 }
 
-
-
-
-
-
-
-
+#results {
+    margin-bottom: 25px;
+}
